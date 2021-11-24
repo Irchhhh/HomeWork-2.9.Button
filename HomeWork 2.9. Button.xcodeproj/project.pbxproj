@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36E3B35BF4F89D6B5D080A17 /* Pods_HomeWork_2_8__Button.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B309C83D502A80F891AB1E9 /* Pods_HomeWork_2_8__Button.framework */; };
 		8C5E33F6274D8C0B00638C60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E33F5274D8C0B00638C60 /* AppDelegate.swift */; };
 		8C5E33F8274D8C0B00638C60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E33F7274D8C0B00638C60 /* SceneDelegate.swift */; };
 		8C5E33FA274D8C0B00638C60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E33F9274D8C0B00638C60 /* ViewController.swift */; };
 		8C5E33FD274D8C0B00638C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5E33FB274D8C0B00638C60 /* Main.storyboard */; };
 		8C5E33FF274D8C1100638C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5E33FE274D8C1100638C60 /* Assets.xcassets */; };
 		8C5E3402274D8C1100638C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5E3400274D8C1100638C60 /* LaunchScreen.storyboard */; };
+		8C939E6B274E4CFA004ECFB0 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C939E6A274E4CFA004ECFB0 /* Animations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C5E33F2274D8C0B00638C60 /* HomeWork 2.8. Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork 2.8. Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE64644316C46861D987752 /* Pods-HomeWork 2.8. Button.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork 2.8. Button.release.xcconfig"; path = "Target Support Files/Pods-HomeWork 2.8. Button/Pods-HomeWork 2.8. Button.release.xcconfig"; sourceTree = "<group>"; };
+		5B309C83D502A80F891AB1E9 /* Pods_HomeWork_2_8__Button.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeWork_2_8__Button.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA6F4BB85E332BC28E1277C /* Pods-HomeWork 2.8. Button.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork 2.8. Button.debug.xcconfig"; path = "Target Support Files/Pods-HomeWork 2.8. Button/Pods-HomeWork 2.8. Button.debug.xcconfig"; sourceTree = "<group>"; };
+		8C5E33F2274D8C0B00638C60 /* HomeWork 2.9. Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork 2.9. Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5E33F5274D8C0B00638C60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C5E33F7274D8C0B00638C60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8C5E33F9274D8C0B00638C60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		8C5E33FE274D8C1100638C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C5E3401274D8C1100638C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C5E3403274D8C1100638C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C939E6A274E4CFA004ECFB0 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E3B35BF4F89D6B5D080A17 /* Pods_HomeWork_2_8__Button.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,51 +47,105 @@
 		8C5E33E9274D8C0B00638C60 = {
 			isa = PBXGroup;
 			children = (
-				8C5E33F4274D8C0B00638C60 /* HomeWork 2.8. Button */,
+				8C5E33F4274D8C0B00638C60 /* HomeWork 2.9. Button */,
 				8C5E33F3274D8C0B00638C60 /* Products */,
+				966A3D0A7BCE8C29BCBDCA69 /* Pods */,
+				CEF7BB6B33610770433A902C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		8C5E33F3274D8C0B00638C60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C5E33F2274D8C0B00638C60 /* HomeWork 2.8. Button.app */,
+				8C5E33F2274D8C0B00638C60 /* HomeWork 2.9. Button.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8C5E33F4274D8C0B00638C60 /* HomeWork 2.8. Button */ = {
+		8C5E33F4274D8C0B00638C60 /* HomeWork 2.9. Button */ = {
+			isa = PBXGroup;
+			children = (
+				8C939E6E274E4D23004ECFB0 /* Delegates */,
+				8C939E6D274E4D14004ECFB0 /* ViewControllers */,
+				8C939E6C274E4D02004ECFB0 /* Models */,
+				8C939E6F274E4D3A004ECFB0 /* Storyboards */,
+				8C5E33FE274D8C1100638C60 /* Assets.xcassets */,
+				8C5E3403274D8C1100638C60 /* Info.plist */,
+			);
+			path = "HomeWork 2.9. Button";
+			sourceTree = "<group>";
+		};
+		8C939E6C274E4D02004ECFB0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C939E6A274E4CFA004ECFB0 /* Animations.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C939E6D274E4D14004ECFB0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C5E33F9274D8C0B00638C60 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8C939E6E274E4D23004ECFB0 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
 				8C5E33F5274D8C0B00638C60 /* AppDelegate.swift */,
 				8C5E33F7274D8C0B00638C60 /* SceneDelegate.swift */,
-				8C5E33F9274D8C0B00638C60 /* ViewController.swift */,
-				8C5E33FB274D8C0B00638C60 /* Main.storyboard */,
-				8C5E33FE274D8C1100638C60 /* Assets.xcassets */,
-				8C5E3400274D8C1100638C60 /* LaunchScreen.storyboard */,
-				8C5E3403274D8C1100638C60 /* Info.plist */,
 			);
-			path = "HomeWork 2.8. Button";
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		8C939E6F274E4D3A004ECFB0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8C5E33FB274D8C0B00638C60 /* Main.storyboard */,
+				8C5E3400274D8C1100638C60 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		966A3D0A7BCE8C29BCBDCA69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BA6F4BB85E332BC28E1277C /* Pods-HomeWork 2.8. Button.debug.xcconfig */,
+				1DE64644316C46861D987752 /* Pods-HomeWork 2.8. Button.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEF7BB6B33610770433A902C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B309C83D502A80F891AB1E9 /* Pods_HomeWork_2_8__Button.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C5E33F1274D8C0B00638C60 /* HomeWork 2.8. Button */ = {
+		8C5E33F1274D8C0B00638C60 /* HomeWork 2.9. Button */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C5E3406274D8C1100638C60 /* Build configuration list for PBXNativeTarget "HomeWork 2.8. Button" */;
+			buildConfigurationList = 8C5E3406274D8C1100638C60 /* Build configuration list for PBXNativeTarget "HomeWork 2.9. Button" */;
 			buildPhases = (
+				16E49CA43C656319503C42FE /* [CP] Check Pods Manifest.lock */,
 				8C5E33EE274D8C0B00638C60 /* Sources */,
 				8C5E33EF274D8C0B00638C60 /* Frameworks */,
 				8C5E33F0274D8C0B00638C60 /* Resources */,
+				D326F10C752667A4C93445AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "HomeWork 2.8. Button";
+			name = "HomeWork 2.9. Button";
 			productName = "HomeWork 2.8. Button";
-			productReference = 8C5E33F2274D8C0B00638C60 /* HomeWork 2.8. Button.app */;
+			productReference = 8C5E33F2274D8C0B00638C60 /* HomeWork 2.9. Button.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8C5E33ED274D8C0B00638C60 /* Build configuration list for PBXProject "HomeWork 2.8. Button" */;
+			buildConfigurationList = 8C5E33ED274D8C0B00638C60 /* Build configuration list for PBXProject "HomeWork 2.9. Button" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +176,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C5E33F1274D8C0B00638C60 /* HomeWork 2.8. Button */,
+				8C5E33F1274D8C0B00638C60 /* HomeWork 2.9. Button */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +194,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16E49CA43C656319503C42FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeWork 2.8. Button-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D326F10C752667A4C93445AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork 2.8. Button/Pods-HomeWork 2.8. Button-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork 2.8. Button/Pods-HomeWork 2.8. Button-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeWork 2.8. Button/Pods-HomeWork 2.8. Button-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C5E33EE274D8C0B00638C60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +243,7 @@
 			files = (
 				8C5E33FA274D8C0B00638C60 /* ViewController.swift in Sources */,
 				8C5E33F6274D8C0B00638C60 /* AppDelegate.swift in Sources */,
+				8C939E6B274E4CFA004ECFB0 /* Animations.swift in Sources */,
 				8C5E33F8274D8C0B00638C60 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +388,7 @@
 		};
 		8C5E3407274D8C1100638C60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA6F4BB85E332BC28E1277C /* Pods-HomeWork 2.8. Button.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +400,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,12 +412,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8C5E3408274D8C1100638C60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE64644316C46861D987752 /* Pods-HomeWork 2.8. Button.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +430,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,14 +442,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C5E33ED274D8C0B00638C60 /* Build configuration list for PBXProject "HomeWork 2.8. Button" */ = {
+		8C5E33ED274D8C0B00638C60 /* Build configuration list for PBXProject "HomeWork 2.9. Button" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C5E3404274D8C1100638C60 /* Debug */,
@@ -350,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C5E3406274D8C1100638C60 /* Build configuration list for PBXNativeTarget "HomeWork 2.8. Button" */ = {
+		8C5E3406274D8C1100638C60 /* Build configuration list for PBXNativeTarget "HomeWork 2.9. Button" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C5E3407274D8C1100638C60 /* Debug */,
